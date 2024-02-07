@@ -9,3 +9,10 @@
 *.log
 *.pyc
 *.wandb
+DataCompolation/NMRData/nmrshiftdb2.nmredata.sd
+DataCompolation/NMRData/nmrshiftdb2withsignals.sd
+Wplot/DrWonPlotter.py
+Wplot/ExampleOne.jpg
+Wplot/viscoExample.jpg
+Wplot/viscoExample2.jpg
+Wplot/WonPloterExample.py
