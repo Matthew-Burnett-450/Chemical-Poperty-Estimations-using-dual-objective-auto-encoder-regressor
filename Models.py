@@ -39,7 +39,7 @@ class SemiSupervisedModel(nn.Module):
         self.regressor = nn.Sequential(
             nn.Linear(latent_dim, 15),  # Increase from the original size
             nn.BatchNorm1d(15),
-            nn.Sigmoid(),
+            nn.ELU(),
             nn.Linear(15,15),  # Additional layer
             nn.BatchNorm1d(15),
             nn.Sigmoid(),

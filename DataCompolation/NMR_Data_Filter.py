@@ -13,7 +13,7 @@ def is_alkane(inchi):
     if not all(atom.GetAtomicNum() in [1, 6] for atom in mol.GetAtoms()):
         return False
 
-    """        # Check for only single bonds in the molecule
+    """    # Check for only single bonds in the molecule
         for bond in mol.GetBonds():
             if bond.GetBondType() != Chem.rdchem.BondType.SINGLE:
                 return False"""

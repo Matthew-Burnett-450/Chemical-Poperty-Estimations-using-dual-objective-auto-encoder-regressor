@@ -16,9 +16,9 @@ import time
 
 #unpack config
 latent_dim = 86
-num_epochs = 8400
-learning_rate = .000531
-epoch_to_start_regressor=2780
+num_epochs = 3000
+learning_rate = .0000531
+epoch_to_start_regressor=100
 lambda_u=7.27
 lambda_l_start=1e-16
 
